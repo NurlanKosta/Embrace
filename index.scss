@@ -343,3 +343,73 @@ $blue: #3461ff;
     margin-top: 150px;
   }
 }
+
+.about {
+  height: 666px;
+  color: #fff;
+  &-wrapper {
+    h2 {
+      font-size: 55px;
+      display: inline;
+      color: black;
+    }
+  }
+  &-arrow {
+    margin-left: 207px;
+  }
+  &-recall {
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    margin-top: 68px;
+    background-color: #3461ff;
+    width: 513px;
+    height: 313px;
+    border-radius: 30px;
+    &--info {
+      padding: 30px 35px;
+    }
+    &--ava {
+      display: flex;
+    }
+    &-txt {
+      span {
+        display: block;
+        margin-top: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+  &-name {
+    margin-left: 20px;
+    h3 {
+      font-size: 28px;
+      font-weight: 600;
+      margin: 0;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}
+
+.footer {
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-media {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  &-link {
+    li {
+      display: block;
+    }
+  }
+}
